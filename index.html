@@ -3,20 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>task css</title>
+    <title>task</title>
+    <style>
+        body{
+            background-color: blueviolet;
+        }
+        h3{
+            text-align: center;
+            font-style: italic;
+        }
+        input[type="text"],input[type="password"]{
+            border: 3px solid pink;
+            width: 250px;
+            height: 30px;
+        background-color: paleturquoise;       
+     }
+     button{
+        background-color: paleturquoise;
+        width: 80px;
+        height: 40px;
+     }
+    </style>
 </head>
 <body>
 <span>
 <h2>Date:22/8/25</h2>
-<h1>Task 1</h1>
-<h3 style="font-size: 24px;font-style: italic; text-align: center;">Simple login form</h3>
-    <p>Enter your username:</p>
-    <input type="text" placeholder ="username" style="width:250px; height:30px;">
-    <p>Enter your password:</p>
-    <input type="password" placeholder="password" style="width:250px; height:30px;">
+<h1>Task 2</h1>
+<h3>Simple login form</h3>
+    <p class="Enter">Enter your username:</p>
+    <input type="text" placeholder ="username" class="text">
+    <p class="Enter">Enter your password:</p>
+    <input type="password" placeholder="password" class="text">
     <br>
     <br>
-<button style="color: blue; background-color: aqua;">submit</button>
+<button>submit</button>
 </span>
 </body>
 </html>
