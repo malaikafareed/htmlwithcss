@@ -1,12 +1,11 @@
-div{
-    height: 100px;
-    width: 100px;
-    background-color: brown;
-    border-radius: 50%;
-    border-color: black;
-    border-style: solid;
-    border-width: 2px;
-    text-align: center;
-    margin-top: 300px;
-    margin-left: 600px;
+nav {
+    background-color: cornflowerblue;
+}
+nav li {
+    list-style: none;
+    float: left;
+    margin: 20px 10px 20px 10px;
+    padding: 5px;
+    border: 2px solid pink;
+    color: rgb(25, 82, 82);
 }
