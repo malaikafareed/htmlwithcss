@@ -1,0 +1,61 @@
+
+div{
+    height: 450px;
+    width: 400px;
+    background-color: rgb(193, 148, 214);
+    border: 3px solid rgb(116, 13, 47);
+    border-radius: 10px;
+    display: flex;
+    justify-self: center;
+    margin-top: 100px;
+    justify-content: center;
+    flex-direction: column;
+
+}
+h1{
+/* font-weight: 800; */
+color: rgb(116, 13, 47);
+display: flex;
+justify-content: center;
+margin-top: 2px;
+}
+.emailp{
+    margin-left: 25px;
+}
+#email{
+    height: 25px;
+    /* padding: 10px; */
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 2px solid rgb(116, 13, 47);
+    border-radius: 5px;
+}
+.passp{
+        margin-left: 25px;
+}
+#password{
+        height: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 2px solid rgb(116, 13, 47);
+    border-radius: 5px;
+}
+p{
+            margin-left: 25px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+        border: 2px solid rgb(116, 13, 47);
+}
+input:hover{
+    background-color: rgb(207, 222, 217);
+}
+button:hover{
+    background-color: rgb(116, 13, 47);
+    color: rgb(193, 148, 214);
+    
+}
